@@ -1,0 +1,339 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Verifying login details with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotels-details;verifying-login-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29769721261,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Adactin Hotels homepage",
+            "match": {
+              "location": "LoginPageStep.user_is_on_Adactin_Hotels_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4688319286,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters \"Prashanth026\" and \"Welcome026\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prashanth026\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Welcome026\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginPageStep.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16257091150,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the login button",
+            "match": {
+              "location": "LoginPageStep.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33200041,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the login",
+            "match": {
+              "location": "LoginPageStep.verify_the_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verifying search details using valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotels-details;verifying-search-details-using-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139287,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Adactin search hotel page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_Adactin_search_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1235304784,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"Sydney\",\"HotelSunshine\",\"Deluxe\",\"2-Two\",\"2-Two\" and \"3-Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"HotelSunshine\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"2-Two\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2-Two\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"3-Three\"",
+                  "offset": 66
+                }
+              ],
+              "location": "LoginPageStep.user_enters_and(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1691811712,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click the search button",
+            "match": {
+              "location": "LoginPageStep.click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137332,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate the search option",
+            "match": {
+              "location": "LoginPageStep.validate_the_search_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verifying Select Option",
+        "description": "",
+        "id": "verifying-adactin-hotels-details;verifying-select-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109474,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Select Page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_Select_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 411262757,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Select the Hotel",
+            "match": {
+              "location": "LoginPageStep.select_the_Hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1381031717,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify and continue",
+            "match": {
+              "location": "LoginPageStep.verify_and_continue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Verifying Booking details",
+        "description": "",
+        "id": "verifying-adactin-hotels-details;verifying-booking-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 108497,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is on Adactin booking page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_Adactin_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2897499294,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters \"Prashanth\",\"Sivaraj\",\"AnnaStreet\" and \"1234556789467890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prashanth\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Sivaraj\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"AnnaStreet\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1234556789467890\"",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginPageStep.user_enters_and(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 831930042,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enter \"Mastero\",\"September\",\"2014\" and \"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mastero\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2014\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginPageStep.user_enter_and(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143499327,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click the book option",
+            "match": {
+              "location": "LoginPageStep.click_the_book_option()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Verifying confirmation",
+        "description": "",
+        "id": "verifying-adactin-hotels-details;verifying-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108008,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on final page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_final_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6151125386,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Print the confirmation number",
+            "match": {
+              "location": "LoginPageStep.print_the_confirmation_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Hotels details",
+    "description": "",
+    "id": "verifying-adactin-hotels-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/LoginPage.feature",
+    "tags": []
+  }
+]

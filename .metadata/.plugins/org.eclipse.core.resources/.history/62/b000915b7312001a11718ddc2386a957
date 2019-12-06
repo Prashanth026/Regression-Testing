@@ -1,0 +1,21 @@
+package com.runner;
+
+
+import org.junit.AfterClass;
+import org.junit.runner.RunWith;
+
+import com.helper.JvmReport;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(plugin = {"pretty","json:C:\\Users\\ELCOT-Lenovo\\Prashanth\\CucumberNew\\Reports\\one.json"},monochrome=true,features= {"src/test/resources/Feature"}, glue= {"com.stepdefinition"},dryRun=true)
+public class TestRunner {
+
+	@AfterClass
+	public static void afterClass() {
+	JvmReport.JvmCustomReport(System.getProperty("user dir")+"\\src\\test\\resource\\Reports");
+	}
+}
